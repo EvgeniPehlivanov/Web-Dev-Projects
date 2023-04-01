@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #1d1c1c;
+    font-size: 1.6em;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+
+    color: aliceblue
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.navbar-right a {
+
+    margin-left: 1em;
+}
+
+main h1,
+h2,
+h3,
+p {
+    display: flex;
+    color: rgb(238, 237, 237);
+    background-color: white;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in;
+}
+
+h1 {
+    margin-top: 25vh;
+}
+
+main h1:hover {
+    color: #1d1c1c;
+
+}
+
+.main-text {
+    color: #1d1c1c;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gitlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gitlinks img {
+    width: 100px;
+    height: 100px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.gitlinks img:hover {
+    transform: scale(1.05);
+}
