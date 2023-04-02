@@ -19,7 +19,7 @@ a {
 
 .navbar a {
 
-    color: aliceblue
+    color: white;
 }
 
 .navbar-right {
@@ -29,18 +29,20 @@ a {
 }
 
 .navbar-right a {
-
     margin-left: 1em;
+    transition: 0.5s;
+}
+
+.navbar-right a:hover {
+    color: rgb(146, 146, 146);
 }
 
 main h1,
-h2,
-h3,
-p {
+h2 {
     display: flex;
-    color: rgb(125, 125, 125);
+    color: #7d7d7d;
     background-color: white;
-    font-size: 3rem;
+    font-size: 5rem;
     align-items: center;
     justify-content: center;
     transition: 1s ease-in;
@@ -50,9 +52,22 @@ h1 {
     margin-top: 30vh;
 }
 
+
 main h1:hover {
     color: #1d1c1c;
 
+}
+
+main h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #7d7d7d;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #7d7d7d;
 }
 
 .main-text {

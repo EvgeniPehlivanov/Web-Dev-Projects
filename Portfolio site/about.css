@@ -22,6 +22,9 @@ a {
     color: aliceblue
 }
 
+
+
+
 .navbar-right {
     display: flex;
     justify-content: space-between;
@@ -29,8 +32,12 @@ a {
 }
 
 .navbar-right a {
-
     margin-left: 1em;
+    transition: 0.3s;
+}
+
+.navbar-right a:hover {
+    color: rgb(169, 169, 169)
 }
 
 .angry {
