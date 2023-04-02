@@ -38,7 +38,7 @@ h2,
 h3,
 p {
     display: flex;
-    color: rgb(238, 237, 237);
+    color: rgb(125, 125, 125);
     background-color: white;
     font-size: 3rem;
     align-items: center;
@@ -47,7 +47,7 @@ p {
 }
 
 h1 {
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 main h1:hover {
@@ -80,4 +80,16 @@ main h1:hover {
 
 .gitlinks img:hover {
     transform: scale(1.05);
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1c1c;
+    height: 3.5vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
