@@ -6,7 +6,7 @@ body {
 
 input {
     background-color: #e6e6e6;
-    border: 3px solid #595959;
+    border: 1px solid #595959;
 }
 
 a {
@@ -73,7 +73,6 @@ h1 {
     border-radius: 4px;
     height: 30px;
     width: 300px;
-    border: 1px solid #ccc;
 }
 
 .contact-content button {
