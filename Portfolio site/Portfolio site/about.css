@@ -1,9 +1,4 @@
-html {
-    overflow-y: hidden;
-}
-
 body {
-    background-color: #edede9;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -24,7 +19,7 @@ a {
 
 .navbar a {
 
-    color: white;
+    color: aliceblue
 }
 
 
@@ -37,7 +32,7 @@ a {
 }
 
 .navbar-right a {
-    margin-left: 1.5em;
+    margin-left: 1em;
     transition: 0.3s;
 }
 
@@ -54,7 +49,7 @@ a {
 
 .content {
     max-width: 35%;
-    margin: 25px 0;
+    margin: 120px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -74,16 +69,16 @@ a {
 .content p {
     margin-top: 30px;
     text-align: center;
-    width: 60%;
+    width: 50%;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 .content img {
     height: 250px;
-    border: 3px solid #1d1c1c;
+    border: 1px solid #1d1c1c;
     border-radius: 50%;
-    /* box-shadow: 0px 1px 8px black; */
+    box-shadow: 0px 1px 8px black;
 }
 
 
@@ -102,6 +97,7 @@ a {
 .content-2 {
     text-align: center;
     display: flex;
+    align-items: center;
     justify-content: right;
     padding-right: 10%;
     margin: 120px 0;

@@ -1,5 +1,4 @@
 body {
-    background-color: #edede9;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -30,7 +29,7 @@ a {
 }
 
 .navbar-right a {
-    margin-left: 1.5em;
+    margin-left: 1em;
     transition: 0.5s;
 }
 
@@ -38,11 +37,11 @@ a {
     color: rgb(146, 146, 146);
 }
 
-
-
-main h1 {
+main h1,
+h2 {
     display: flex;
-    color: #393939;
+    color: #7d7d7d;
+    background-color: white;
     font-size: 5rem;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,6 @@ main h1 {
 
 h1 {
     margin-top: 30vh;
-    margin-bottom: 0.5rem;
 }
 
 
@@ -61,16 +59,15 @@ main h1:hover {
 }
 
 main h3 {
-    margin-bottom: 50px;
     text-align: center;
     font-size: 2rem;
-    color: #393939;
+    color: #7d7d7d;
 }
 
 main p {
     text-align: center;
     font-size: 1.3rem;
-    color: #393939;
+    color: #7d7d7d;
 }
 
 .main-text {
@@ -97,7 +94,7 @@ main p {
 }
 
 .gitlinks img:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
 }
 
 .footer {

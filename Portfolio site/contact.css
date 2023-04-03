@@ -1,0 +1,120 @@
+body {
+    background-color: #edede9;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+input {
+    background-color: #e6e6e6;
+    border: 3px solid #595959;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1d1c1c;
+    font-size: 1.6em;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.navbar-right a {
+    margin-left: 1.5em;
+    transition: 0.5s;
+}
+
+.navbar-right a:hover {
+    color: rgb(146, 146, 146);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.contact-content {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contact-content p {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.contact-content input {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.contact-content button {
+    font-size: 1rem;
+    background-color: #1d1c1c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.contact-content button:hover {
+    background-color: #595959;
+    color: white;
+}
+
+.title input {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.msg input {
+    text-align: left;
+    font-size: 1.2rem;
+    width: 300px;
+    height: 200px;
+}
+
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1c1c;
+    height: 3.5vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
