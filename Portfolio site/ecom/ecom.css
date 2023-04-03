@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+p {
+    color: #999999;
+}
+
+.title {
+    color: #7209b7;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar {
+    margin: 0 15%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+.navbar-middle a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.navbar-middle a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.navbar-profile img {
+    border: 2px solid #7209b7;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    margin: 10% 20%;
+}
+
+.container-images {
+    margin-right: 60px;
+}
+
+.container-images img {
+    border-radius: 20px;
+}
+
+.container-text {
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.text-button {
+
+    text-align: center;
+}
+
+.text-button button {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #7209b7;
+    cursor: pointer;
+}
