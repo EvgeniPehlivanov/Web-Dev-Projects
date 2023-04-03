@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #edede9;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
@@ -74,9 +74,9 @@ a {
 .content p {
     margin-top: 30px;
     text-align: center;
-    width: 60%;
+    width: 80%;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .content img {

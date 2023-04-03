@@ -1,6 +1,6 @@
 body {
     background-color: #edede9;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
@@ -68,7 +68,7 @@ h1 {
 
 .contact-content input {
     box-sizing: border-box;
-    padding: 10px;
+    padding: 15px 10px;
     width: 100%;
     border-radius: 4px;
     height: 30px;
