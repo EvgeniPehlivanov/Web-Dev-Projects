@@ -28,8 +28,8 @@ h1 {
     opacity: 70%;
 }
 
-.content{
-    margin-top:20px;
+.content {
+    margin-top: 20px;
 }
 
 .todo-form {
@@ -65,7 +65,7 @@ h1 {
     margin: 10px;
 }
 
-.item{
+.item {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -79,38 +79,38 @@ h1 {
     text-transform: uppercase;
 }
 
-.item:nth-child(even){
+.item:nth-child(even) {
     background-color: rgb(192, 192, 192);
 }
 
-
-.item i{
+.item i {
     cursor: pointer;
     margin: 0 5px;
 }
 
-@media(max-width:768px){
-    .actionBox{
+@media(max-width:768px) {
+    .actionBox {
         align-items: center;
         flex-direction: column;
     }
-    
-    .todo-form{
+
+    .todo-form {
         width: 100%;
     }
 
-    .to-do-items{
+    .to-do-items {
         width: 100%;
     }
 }
 
-@media(max-width:480px){
-    .todo-form{
+@media(max-width:480px) {
+    .todo-form {
         width: 74%;
     }
 }
-@media(max-width:320px){
-    .todo-form{
+
+@media(max-width:320px) {
+    .todo-form {
         width: 60%;
     }
 }
