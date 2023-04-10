@@ -79,6 +79,11 @@ h1 {
     text-transform: uppercase;
 }
 
+.item:nth-child(even){
+    background-color: rgb(192, 192, 192);
+}
+
+
 .item i{
     cursor: pointer;
     margin: 0 5px;
