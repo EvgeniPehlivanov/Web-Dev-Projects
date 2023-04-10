@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #aa9cc4, #9649bf);
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 128px auto;
+    text-align: center;
+    width: 500px;
+    background-color: #6b6b6b;
+    border-radius: 8px;
+    color:white;
+
+}
+
+#profit{
+    color:greenyellow;
+}
+#cost{
+    color:rgb(200, 0, 0);
+}
+.main-body h2 {
+    font-size: 3rem;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.numbers h4 {
+    margin-right: 30px;
+}
+
+.input-textbox {
+    border: 2px solid grey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 10px 10px;
+    padding: 14px;
+}
+
+.input-button {
+    border: 2px solid grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 10px -10px;
+    padding: 14px;
+}
