@@ -66,44 +66,18 @@ h1 {
     font-size: 1.5em;
 }
 
-.contact-content input {
-    box-sizing: border-box;
-    padding: 15px 10px;
-    width: 100%;
-    border-radius: 4px;
-    height: 30px;
-    width: 300px;
-}
-
-.contact-content button {
-    font-size: 1rem;
-    background-color: #1d1c1c;
-    color: white;
-    border: none;
-    border-radius: 10px;
+.contact-content a img {
     margin-top: 30px;
-    height: 50px;
     width: 100px;
-    transition: 0.1s ease-in;
-    cursor: pointer;
+    height: 100px;
+    padding: 0px 10px;
+    transition: 0.5s;
 }
 
-.contact-content button:hover {
-    background-color: #595959;
-    color: white;
+.contact-content a img:hover {
+    transform: scale(1.07);
 }
 
-.title input {
-    text-align: left;
-    font-size: 1.2rem;
-}
-
-.msg input {
-    text-align: left;
-    font-size: 1.2rem;
-    width: 300px;
-    height: 200px;
-}
 
 
 .footer {
@@ -116,4 +90,8 @@ h1 {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.contents {
+    margin-top: 18vh;
 }

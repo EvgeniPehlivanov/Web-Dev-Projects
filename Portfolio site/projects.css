@@ -10,7 +10,7 @@ a {
 }
 
 img {
-    width: 80%;
+    width: 100%;
 }
 
 h1 {
@@ -63,7 +63,7 @@ h1 {
 }
 
 .content-links {
-    margin: 20vh;
+    margin: 20vh 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +72,12 @@ h1 {
     border-radius: 20px;
     border: 1px solid #1d1c1c;
     transition: 1s;
+
+}
+
+.content-links a {
+    width: 80%;
+    margin-right: 30px;
 }
 
 .content-links img:hover {

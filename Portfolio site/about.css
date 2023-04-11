@@ -46,8 +46,9 @@ a {
 }
 
 .angry {
+    margin: 0 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 87vh
 }
 
@@ -127,5 +128,12 @@ h2 {
 
     text-align: center;
     display: flex;
+}
+.interests-hobbies {
+    display: flex;
+    justify-content: center; 
+}
 
+.interests-hobbies li{
+    margin-right: 30px;
 }
