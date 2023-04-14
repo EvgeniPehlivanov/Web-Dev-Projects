@@ -18,6 +18,7 @@ function addItem() {
     var trashIcon = document.createElement("i");
 
     divParent.className = "item";
+    if(input.value === "") return;
     divParent.innerHTML = '<div>' + input.value + '</div>';
 
     let isClicked = false;

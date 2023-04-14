@@ -76,7 +76,7 @@ h1 {
     color: #454545;
     margin-top: 10px;
     font-size: 1rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .item:nth-child(even) {
