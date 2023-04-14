@@ -1,10 +1,6 @@
 # Web-Dev-Projects
-Documenting the beginning of my web dev journey
+My Personal Portfolio Project
 
-It's barely been a week since I started learning web development.
-So far i've finished the HTML and CSS sections of the course im following. 
-The next step in the course is bootstrap but i think i'll put it off for now as im more interested in learning javascript and using the react library.
-According to the internet JS is an easy language to learn. Considering my prior experience with C, C# and Python i hope to get the hang of it quickly.
+This started out as a repo where I would place simple pages I created while practicing HTML and CSS, but has since evolved into being a repo for my Personal Portfolio where I also put projects, which I deem okay. I've still got a long way to go but with every day spent learning and practicing I feel better about the projects I create.
 
-Anyway the first thing I'm uploading is the main page of my future portfolio. Eventually, after i learn some JS i'll start adding projects to the projects
-section but right now i want to make a simple, good looking and eye catching site.
+To open the main homepage of my portfolio you need to open portfolio.html
