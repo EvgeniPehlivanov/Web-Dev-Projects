@@ -1,9 +1,14 @@
 const toDoItems = document.getElementsByClassName("to-do-items")[0];
-const input = document.getElementById("input");
-const trash = document.getElementById("trash");
+const input = document.querySelector("#input");
+const trash = document.querySelector("#trash");
+const button = document.querySelector(".todo-button");
+const item = document.querySelector(".item");
 
 input.addEventListener("keydown", (event) =>{
     if (event.key === "Enter") addItem();
+})  
+button.addEventListener("click", () =>{
+    addItem();
 })  
 
 function addItem() {
@@ -15,10 +20,19 @@ function addItem() {
     divParent.className = "item";
     divParent.innerHTML = '<div>' + input.value + '</div>';
 
+    let isClicked = false;
     checkIcon.className = "fas fa-check-square";
     checkIcon.style.color = "black";
     checkIcon.addEventListener("click", function () {
         checkIcon.style.color = "blue";
+        divParent.style.textDecoration = "line-through";
+        if(isClicked === true) {
+            checkIcon.style.color = "black";
+            divParent.style.textDecoration = "none";
+            isClicked = false;
+            return
+        }
+        isClicked = true;
     })
 
     divChild.appendChild(checkIcon);
